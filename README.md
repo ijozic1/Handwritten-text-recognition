@@ -91,7 +91,7 @@ It utilizes the **HTR-FLORe neural network model**, combining convolutional and 
 
 ## Authors
 - Ivona Jozić
-- Ismar Muslić
+- [Ismar Muslić](https://github.com/imuslic1)
 - Supervised by: Prof. dr Amila Akagić <br>
 University of Sarajevo, Faculty of Electrical Engineering
 
