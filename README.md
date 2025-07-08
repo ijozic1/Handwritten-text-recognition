@@ -1,4 +1,4 @@
-# 📝 Handwritten Text Recognition (HTR) for Bosnian Printed Letters
+# Handwritten Text Recognition (HTR) for Bosnian Printed Letters
 
 The project is based on code from the [handwritten-text-recognition](https://github.com/arthurflor23/handwritten-text-recognition) repository.
 
@@ -8,7 +8,7 @@ It utilizes the **HTR-FLORe neural network model**, combining convolutional and 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Language:** Bosnian
 - **Text type:** Printed handwritten text (štampana slova)
@@ -18,7 +18,7 @@ It utilizes the **HTR-FLORe neural network model**, combining convolutional and 
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 1. **Dataset Creation**
    - Texts sourced from literature, the web, and generated content.
@@ -52,7 +52,7 @@ It utilizes the **HTR-FLORe neural network model**, combining convolutional and 
 
 ---
 
-## 🚀 Results Summary
+## Results Summary
 
 | Dataset       | CER     | WER     | SER     |
 |---------------|---------|---------|---------|
@@ -66,3 +66,33 @@ It utilizes the **HTR-FLORe neural network model**, combining convolutional and 
 
 ---
 
+## Project Structure
+
+![image](https://github.com/user-attachments/assets/a4c74e12-a5a5-48f4-8fc5-7f8fce7a6027)
+
+---
+
+## Performance Analysis
+
+- Early Stopping was triggered in all trainings (best at 106–135 epochs).
+- No overfitting observed when training on words.
+- Overfitting occurred with line-based datasets due to longer input sequences.
+- Modified segmentation improved dataset structure but introduced metric trade-offs.
+
+---
+
+## Comparison with LLMs
+
+- LLMs (GPT-4o, Claude, Google Gemini) were tested on the same handwritten samples.
+- Results were promising but notably weaker for Bosnian than for English.
+- Traditional HTR still outperforms LLMs on handwritten recognition tasks, especially for non-English texts.
+
+---
+
+## Authors
+- Ivona Jozić
+- Ismar Muslić
+- Supervised by: Prof. dr Amila Akagić <br>
+University of Sarajevo, Faculty of Electrical Engineering
+
+---
