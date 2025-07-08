@@ -89,6 +89,39 @@ It utilizes the **HTR-FLORe neural network model**, combining convolutional and 
 
 ---
 
+## Demo
+
+- ### **Screenshots of input images with model predictions**
+
+ ### **Words** <br>
+<img src="https://github.com/user-attachments/assets/4b1c9692-4f7a-4d79-a376-e8a886f78d6a" width="80%"/>
+
+ ### **Lines** (orig.) <br>
+ <img src="https://github.com/user-attachments/assets/b7fff16f-c881-4cc7-abde-657b5ddf7e5a" width="80%"/>
+
+ ### **Lines** (mod.) <br>
+ <img src="https://github.com/user-attachments/assets/05bcfe1c-3ae9-4b5b-b618-4c3f95f02ed3" width="80%"/>
+
+- ### **Training and validation loss plots**  
+ ### **Words** <br>
+<img src="https://github.com/user-attachments/assets/f599469d-080e-4664-b504-89f31e1a1108" width="50%"/>
+
+### **Lines** (orig.) <br>
+<img src="https://github.com/user-attachments/assets/ae2ff275-0e16-474c-8b3d-35e79b076cf5" width="50%"/>
+
+### **Lines** (mod.) <br>
+<img src="https://github.com/user-attachments/assets/c5de00f5-9d46-4deb-afa3-bdc1a629fc21" width="50%"/>
+
+
+- ### **Evaluation metrics (CER, WER, SER)**  
+![image](https://github.com/user-attachments/assets/c61eabc9-9637-4b29-a950-ebd380efbb31)
+
+- ### **Google Colab Notebook**  
+A full training and evaluation pipeline is available in the repository:  
+📎 [`HTR_bos_stampana_slova.ipynb`](https://github.com/ijozic1/Handwritten-text-recognition/blob/main/HTR_bos_stampana_slova.ipynb)
+
+---
+
 ## Authors
 - Ivona Jozić
 - [Ismar Muslić](https://github.com/imuslic1)
