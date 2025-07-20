@@ -123,7 +123,7 @@ A full training and evaluation pipeline is available in the repository:
 ---
 
 ## Authors
-- Ivona Jozić
+- [Ivona Jozić](https://github.com/ijozic1)
 - [Ismar Muslić](https://github.com/imuslic1)
 - Supervised by: Prof. dr Amila Akagić <br>
 University of Sarajevo, Faculty of Electrical Engineering
