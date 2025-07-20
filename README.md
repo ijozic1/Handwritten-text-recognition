@@ -1,6 +1,6 @@
 # Handwritten Text Recognition (HTR) for Bosnian Printed Letters
 
-The project is based on code from the [handwritten-text-recognition](https://github.com/arthurflor23/handwritten-text-recognition) and the [master-theses-HTR](https://github.com/abegovac2/masters-theses-HTR) repositories.
+The project is based on code from the [handwritten-text-recognition](https://github.com/arthurflor23/handwritten-text-recognition) and [master-theses-HTR](https://github.com/abegovac2/masters-theses-HTR) repositories.
 
 This project presents a system for recognizing **handwritten printed text in the Bosnian language**, developed as part of the Artificial Intelligence course at the University of Sarajevo.
 
